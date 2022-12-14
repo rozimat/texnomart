@@ -1,0 +1,26 @@
+.catalog{
+  display: none;
+}
+
+@media only screen and (max-width: 1023px) {
+  .catalog{
+    width: 100%;
+    margin: auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1023px;
+    height: 46px;
+    background-color: #fcd100;
+    cursor: pointer;
+    border-radius: 12px;
+    margin-top: 20px;
+    &__icon{
+      width: 24px;
+      height: 24px;
+      margin-right: 20px;
+    }
+  }
+ 
+}

@@ -1,0 +1,76 @@
+.ilova{
+  max-width: 1440px;
+  height:   414px;
+  background-color: #f7f7f7;
+  border-radius: 12px;
+  margin: 0 auto;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  padding: 0 100px;
+  
+  &__left{
+   
+    margin-right: 15%;
+  }
+  &__right{
+    width: 376px;
+    height: 414px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    //margin-left: 20px;
+
+    &--heading{
+      margin-bottom: 30px;
+
+    }
+    &--text{
+      margin-bottom: 20px;
+    }
+    &--imgWrapper{
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      &--text{
+        width: 170px;
+
+        padding-left: 20px;
+
+      }
+      &__img{
+        width: 112px;
+        height: 112px;
+      }
+
+    }
+  }
+
+  &__btn{
+    width: 110px;
+    height: 37px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    color: #333;
+    text-decoration: none;
+    &--icon{
+      width: 24px;
+      height: 24px;
+    }
+   \&--wrapper{
+    &__p{
+      font-size: 8px;
+
+    }
+    &__span{
+      font-size: 10px;
+    }
+   }
+  }
+}
+@media only screen and (max-width: 1023px){
+  .ilova{
+    display: none;
+  }
+}

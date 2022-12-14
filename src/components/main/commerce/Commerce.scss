@@ -1,0 +1,130 @@
+.commerce{
+  max-width: 1440px;
+  height: 436px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  margin-top: 50px;
+  background-color: #fff;
+  &__btn{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+
+  }
+  &__btn[data-btn-type='right']{
+    right: 0;
+  }
+  &__btn[data-btn-type='left']{
+    left: 0;
+  }
+  &__batafsil{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &--heading{
+      margin-left: 20px;
+    }
+    &--link{
+      color: rgb(56, 56, 189);
+      text-decoration: none;
+      display: flex;
+      align-items:center;
+
+    }
+  }
+
+  &__carusel{
+    max-width: 1440px;
+    height: 404px;
+    margin: auto;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    &--card:hover{
+      -webkit-box-shadow: 4px 4px 28px -5px rgba(34, 60, 80, 0.6);
+       -moz-box-shadow: 4px 4px 28px -5px rgba(34, 60, 80, 0.6);
+       box-shadow: 4px 4px 28px -5px rgba(34, 60, 80, 0.6);
+     }
+    &--card{
+      width: 240px;
+      height: 384px;
+      padding: 20px;
+      border-radius: 5px;
+      border-right: 1px solid #ededed;
+      border-left: 1px solid #ededed;
+      box-shadow: 0 0 5px rgba(0,0,0,.1);
+      &__xit{
+        padding: 3px;
+        color: #fff;
+        background-color: red;
+        border-radius: 5px;
+      }
+      &__link{
+        width: 205px;
+        height: 246px;
+        text-decoration: none;
+        &--img{
+          width: 205px;
+          height: 180px;
+          margin-bottom: 40px;
+          object-fit: contain;
+        }
+        &--text{
+          font-size: 13px;
+          color: #333;
+          margin-bottom: 20px;
+        }
+      
+      }
+      &__price{
+        margin-bottom: 20px;
+      }
+      &__wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 10px;
+        &--heart{
+          width: 20px;
+          height: 24px;
+          cursor: pointer;
+        }
+        &--balance{
+          width: 20px;
+          height: 24px;
+          cursor: pointer;
+
+        }
+      
+        &--btn{
+          width: 128px;
+          height: 38px;
+          display: flex;
+          align-items: center;
+          text-align: center;
+          justify-content: center;
+          outline: none;
+          border: none;
+          background-color: #fcd100;
+          cursor: pointer;
+          border-radius: 8px;
+
+          &__icon{
+            width: 20px;
+            height: 24px;
+            margin-right: 5px;
+          }
+        }
+      }
+    }
+  }
+}

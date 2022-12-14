@@ -1,0 +1,36 @@
+.navbar{
+  width: 100vw;
+  height: 50px;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+  &__wrapper{
+    margin: 0 auto;
+    width: 1440px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &--selected{
+      outline: none;
+      border: none;
+      background-color: #333;
+      color:#fff;
+
+    }
+    &--links{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 15px;
+      >a{
+        color: #fff;
+        text-decoration: none;
+      }
+
+    }
+  }
+}
